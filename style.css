@@ -1,0 +1,31 @@
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+div{
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+span{
+    aspect-ratio: 1;
+    text-align: center;
+    flex-basis: calc(100% / 7 - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid salmon;
+
+}
